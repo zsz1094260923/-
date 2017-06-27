@@ -1,0 +1,208 @@
+#header {
+  height: 50px;
+  background-color: #ff841d;
+  border-bottom: 1px solid #e6e6e6;
+}
+#header .logo {
+  height: 25px;
+  padding: 12px;
+  width: 75%;
+  margin-left: 5px;
+}
+#header .logo a {
+  display: block;
+  height: 100%;
+}
+#header .logo img {
+  max-height: 25px;
+  overflow: hidden;
+}
+#header .app {
+  height: 25px;
+  padding: 7px;
+}
+#header .app img {
+  max-height: 34px;
+  overflow: hidden;
+}
+#search form {
+  border-bottom: 1px solid #e6e6e6;
+  height: 60px;
+  padding: 15px;
+  position: relative;
+}
+#search form input:first-child {
+  border: none;
+  background: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  width: 90%;
+  padding-left: 5%;
+  font-size: 16px;
+  outline: none;
+}
+#search form input:last-child {
+  width: 63px;
+  background-color: #ff841d;
+  color: #FFF;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 16px;
+  outline: none;
+}
+#menu {
+  background-color: #fff;
+  padding: 6px 0;
+}
+#menu .area-item {
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+#menu .area-item a {
+  display: block;
+  margin: 15px 0;
+}
+#menu .area-item a .pic img {
+  width: 50px;
+}
+#menu .area-item a .name {
+  color: #5a5a5a;
+  margin-top: 3px;
+  font-size: 13px;
+}
+#menu .hide {
+  display: none;
+}
+#menu .hide .show {
+  display: block;
+}
+#recommen .jxhd {
+  height: 35px;
+  background-color: #ff9000;
+  border-bottom: 1px solid #ffc881;
+  line-height: 35px;
+  overflow: hidden;
+  color: #fff;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  clear: both;
+}
+#recommen .jxhd span {
+  float: left;
+  display: inline-block;
+}
+#recommen .jxhd img {
+  float: right;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 8px;
+  color: #fff;
+}
+#recommen .jxhdc {
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+#recommen .jxhdc .cu-list ul li {
+  padding: 14px 8px;
+  position: relative;
+}
+#recommen .jxhdc .cu-list ul li a {
+  display: block;
+}
+#recommen .jxhdc .cu-list ul li a .pic {
+  float: left;
+  width: 110px;
+}
+#recommen .jxhdc .cu-list ul li a .pic img {
+  width: 100px;
+  height: 100px;
+}
+#recommen .jxhdc .cu-list ul li a .info {
+  padding-left: 90px;
+  font-size: 14px;
+  line-height: 24px;
+}
+#recommen .jxhdc .cu-list ul li a .info .title {
+  color: #333;
+  word-break: break-all;
+  font-size: 15px;
+  line-height: 19px;
+  min-height: 57px;
+  text-align: left;
+  font-weight: normal;
+}
+#recommen .jxhdc .cu-list ul li a .info .title span {
+  color: #ff6c00;
+  display: inline;
+}
+#recommen .jxhdc .cu-list ul li a .info .other {
+  margin-top: 8px;
+  color: #a1a1a1;
+}
+#recommen .jxhdc .cu-list ul li a .info .other .mail {
+  color: #a1a1a1;
+  font-size: 12px;
+  float: left;
+}
+#recommen .jxhdc .cu-list ul li a .info .other .comment {
+  color: #a1a1a1;
+  font-size: 12px;
+  float: right;
+}
+#recommen .jxhdc .more-bar {
+  text-align: center;
+  width: 100%;
+}
+#recommen .jxhdc .more-bar a {
+  display: block;
+  line-height: 30px;
+  background: #f4f4f4;
+  text-decoration: none;
+  font-size: 13px;
+  background-image: linear-gradient(#ffffff, #f4f4f4);
+  margin: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+#footer .footer-t {
+  margin-top: 10px;
+  background: #efefef;
+  border-top: 1px solid #c4c4c4;
+  height: 34px;
+  line-height: 34px;
+  clear: both;
+}
+#footer .footer-t a {
+  box-sizing: border-box;
+  float: left;
+  font-size: 14px;
+  border-right: 1px solid #c4c4c4;
+  text-align: center;
+  width: 30%;
+}
+#footer .footer-t a img {
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-right: 2px;
+}
+#footer .footer-b {
+  background: #efefef;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px 0;
+  color: #666;
+}
+#footer .footer-b p a:first-child {
+  color: red;
+}
